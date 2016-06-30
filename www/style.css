@@ -1,0 +1,107 @@
+.shiny-output-error-validation {
+  color: red;
+}
+.shiny-output-error-missing-folder {
+  color: red;
+}
+/*.column-charts {
+    height: 600px;
+    overflow: auto;
+    width: 100%;
+}*/
+#columnCharts div[id^="plot"] {
+    float: left;
+    overflow: auto;
+    width: 200px;
+}
+.charts-tooltip div {
+  background: white !important;
+  color: black  !important;
+}
+.modal-dialog {
+  width: 80%;
+}
+.missing {
+  color: red;
+}
+.required {
+  color: red;
+}
+.warning {
+  color: #4f9fcf;
+}
+.col-centered{
+    float: none;
+    text-align: center;
+    
+}
+.heading {
+    float: left;
+    width: 100%;
+}
+.heading > h3 {
+    float: left;
+    width: 50%;
+}
+.heading button {
+  float: right;
+  margin-top: 10px;
+}
+#dataChunk {
+    overflow: auto;
+    width: 100%;
+}
+.btn {
+  white-space: normal;
+}
+#DrawChartFiltersWraper {
+  margin-top: 20px;
+  padding: 10px;
+}
+#questionsWraper {
+  margin-top: 20px;
+  padding: 10px;
+}
+#dataChunkHeading {
+  display: none;
+}
+#columnChartsHeading {
+    display: none;
+}
+#questionsAnswersHeading {
+  display: none;
+}
+#q1Heading {
+  display: none;
+}
+#q2Heading {
+  display: none;
+}
+#q3Heading {
+  display: none;
+}
+#formQ1 .missing {
+  display: none;
+}
+#formQ2 .missing {
+  display: none;
+}
+#formQ3 .missing {
+  display: none;
+}
+#q1Ans {
+    overflow: auto;
+    width: 100%;
+}
+#questionsWraper > div > div[id^="formQ"] {
+    display: none;
+    margin-top: 10px;
+}
+
+#questionsWraper > div > div#formQ1 {
+    display: block;
+    
+}
+/*#q3SelectList3 {
+  display: none;
+}*/
